@@ -1,6 +1,8 @@
 '''
 The purpose of this script is to convert a tweet's timestamp to local time, as Twitter gives the UTC time of a stamp.
 
+It is designed to work in Python 3.5.
+
 The script assumes each tweet is its own line and saved as a string.
 
 The try-except wrapper is because some tweets (.8% in my experience) come malformed.  The number is low enough, and the malformations appear random, so I ignore them.
